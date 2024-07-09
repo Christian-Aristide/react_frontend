@@ -3,7 +3,7 @@ import './NavBar.css'
 import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom';
 
-const NavBar = () => {
+const NavBar = ({setShowLogin}) => {
 
   // mise en place du lien actif 
   const [menu, setMenu] = useState("home");
@@ -24,7 +24,8 @@ const NavBar = () => {
           <img src={assets.basket_icon} alt="" />
           <div className="dot"></div>
         </div>
-        <button>sign in</button>
+        {/* J'ajoute la true si je click sur le boutton pour faire apparaitre le Login  */}
+        <button onClick={()=>setShowLogin(true)}>sign in</button>
       </div>
     </div>
   )
