@@ -7,12 +7,12 @@ import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 const Home = () => {
 
   // Mise en place du filtre de catégorie dynamique 
-  const [categorie, setCategorie] = useState('All')
+  const [category, setCategory] = useState('All')
 
   return (
     <div>
       <Header/>
-      <ExploreMenu categorie={categorie} setCategorie={setCategorie} />
+      <ExploreMenu category={category} setCategory={setCategory} />
       <FoodDisplay/>
     </div>
   )
