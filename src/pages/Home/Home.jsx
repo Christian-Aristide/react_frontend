@@ -3,6 +3,7 @@ import "./Home"
 import Header from '../../components/Header/Header'
 import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
+import AppDownload from '../../components/AppDownload/AppDownload'
 
 const Home = () => {
 
@@ -13,7 +14,8 @@ const Home = () => {
     <div>
       <Header/>
       <ExploreMenu category={category} setCategory={setCategory} />
-      <FoodDisplay/>
+      <FoodDisplay category={category}/>
+      <AppDownload/>
     </div>
   )
 }
