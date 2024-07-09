@@ -10,7 +10,7 @@
 - Images : si je dois utilisé des images dans le css, je le mets dans le public
 - .explore-menu-list::-webkit-scrollbar : mettre du css sur le scrollbar visible
 - keframe , animation : pour mettre en place le fadeIn
-
+- scrollsmooth : je transform les li en Link (react router dom) et j'achève
 
 ## Nouveau
 - keframe , animation : pour mettre en place le fadeIn
