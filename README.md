@@ -1,8 +1,21 @@
-# React + Vite
+# Tuteur : GreatStack 
+- Lien de la vidéo : https://www.youtube.com/watch?v=9jRTo7ILxQc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## EXTENSIONS
+- ES7 Récat/Redux/GraphQL
+## NOTES 
+- rafce : pour affiché le code de base
+- index.html : est là pour le disign du app
+- BrowserRouter : permet de supprimer le strict mode dans main.jsx
+- Images : si je dois utilisé des images dans le css, je le mets dans le public
+- .explore-menu-list::-webkit-scrollbar : mettre du css sur le scrollbar visible
+- keframe , animation : pour mettre en place le fadeIn
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Nouveau
+- keframe , animation : pour mettre en place le fadeIn
+- .explore-menu-list::-webkit-scrollbar : mettre du css sur le scrollbar visible
+
+
+## Dans le projet
+- StoreContext.jsx : se comporte un API
