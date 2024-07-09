@@ -11,6 +11,7 @@
 - .explore-menu-list::-webkit-scrollbar : mettre du css sur le scrollbar visible
 - keframe , animation : pour mettre en place le fadeIn
 - scrollsmooth : je transform les li en Link (react router dom) et j'achève
+- Link to : pour tout ce qui est redirection vers une autre page
 
 ## Nouveau
 - keframe , animation : pour mettre en place le fadeIn

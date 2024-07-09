@@ -10,7 +10,7 @@ const NavBar = ({setShowLogin}) => {
 
   return (
     <div className='navbar'>
-      <img src={assets.logo} alt="" className="logo" />
+     <Link to="/"> <img src={assets.logo} alt="" className="logo" /> </Link>
       {/* les href ici doivent correspondrent aux ID de ces pages  */}
       <ul className="navbar-menu">
         <Link to="/" onClick={()=>setMenu("home")} className={menu==="home" ? "active" : ""}>home</Link>
@@ -21,7 +21,7 @@ const NavBar = ({setShowLogin}) => {
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
         <div className="navbar-search-icon">
-          <img src={assets.basket_icon} alt="" />
+        <Link to="/cart"> <img src={assets.basket_icon} alt="" /> </Link>
           <div className="dot"></div>
         </div>
         {/* J'ajoute la true si je click sur le boutton pour faire apparaitre le Login  */}
